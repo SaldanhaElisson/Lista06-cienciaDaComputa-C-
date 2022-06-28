@@ -24,8 +24,7 @@ int main(){
        printf("ALUNO %d°\nNOTA 1 = %d, \nNOTA 2 = %d, \n", a+1, (alunos+a)->nota[0], (alunos+a)->nota[1]);
        printf("\n");
     }
-
-
+   
     // imprimindo media
     for(int a = 0; a < TAMALUNOS; a++){
        (alunos+a)->media =  media((alunos->nota), TAM);
